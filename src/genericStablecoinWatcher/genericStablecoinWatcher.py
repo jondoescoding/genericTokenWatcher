@@ -29,11 +29,13 @@ def send(msg, chat_id, token):
 """Network & Account Management"""
 # Connect to the avax network
 
-print(
-    "Ethereum (Infura) = mainnet, ropsten, rinkeby, goerli, kovan \nEthereum Classic = etc, kotti \nArbitrum = arbitrum-main \nAvalanche=avax-main,avax-test \nAurora = aurora-main, aurora-test \nBinance Smart Chain=bsc-test, bsc-main \nBoba=boba-test, boba-main \nFantom Opera=ftm-test, ftm-main \nHarmony=harmony-main, \nMoonbeam=moonbeam-main, moonbeam-test \nMoonriver=moonriver-main \nPolygon(Infura): polygon-main, polygon-test \nxDAI=xdai-main, xdai-test"
-)
+#print(
+#    "Ethereum (Infura) = mainnet, ropsten, rinkeby, goerli, kovan \nEthereum Classic = etc, kotti \nArbitrum = arbitrum-main \nAvalanche=avax-main,avax-test \nAurora = aurora-main, aurora-test \nBinance Smart Chain=bsc-test, bsc-main \nBoba=boba-test, boba-main \nFantom Opera=ftm-test, ftm-main \nHarmony=harmony-main, \nMoonbeam=moonbeam-main, moonbeam-test \nMoonriver=moonriver-main \nPolygon(Infura): polygon-main, polygon-test \nxDAI=xdai-main, xdai-test"
+#)
 
-brownie.network.connect(input("Enter the chain you want to connect to name: "))
+#brownie.network.connect(input("Enter the chain you want to connect to name: "))
+
+brownie.network.connect(input("avax-main")
 
 # Check if user account exists and load user account
 try:
