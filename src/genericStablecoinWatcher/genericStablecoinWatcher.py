@@ -35,7 +35,7 @@ def send(msg, chat_id, token):
 
 #brownie.network.connect(input("Enter the chain you want to connect to name: "))
 
-brownie.network.connect(input("avax-main")
+brownie.network.connect("avax-main")
 
 # Check if user account exists and load user account
 try:
