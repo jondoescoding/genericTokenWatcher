@@ -38,7 +38,7 @@ Generic Stable Watcher is a simple script which will alert users via telegram on
 - Head over to the issues page if you find any bugs
 
 ## Credits
-- Massive shoutout to [BowTiedDevil](https://github.com/BowTiedDevil) and his [Substack](https://degencode.substack.com/). 
+- Massive shoutout to [BowTiedDevil](https://github.com/BowTiedDevil) and his [Substack](https://degencode.substack.com/). The work he has done on his substack formed the basis of this script
 - Highly recommend if you are interested in Crypto Arbitrage you should go check him out
 
 <h4>Liked the work ?</h4>
